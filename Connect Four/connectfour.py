@@ -36,7 +36,6 @@ def gamePlayTwoPlayers(p1, p2):
             print(check_negative_diagonal_win(p1, p2))
             break
 
-        column = int(input("{}'s turn. Enter which column you would like to drop your piece into: ".format(p2)))
         while True:
             try:
                 choice = int(input("{}'s turn. Enter column (1-7): ".format(p2)))
